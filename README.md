@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # Image Augmentation
 
 Là kĩ thuật để tăng số lượng dữ liệu trong dataset trong trường hợp quá ít dữ liệu.
@@ -21,8 +20,6 @@ Cách giải quyết vấn đề
 
 ![alt](https://paperswithcode.com/media/thumbnails/task/task-0000001560-029cbc00.jpg)
 
-=======
-=======
->>>>>>> 4c269454d3f742ee5e8e1b479afadfbe7f8ec8e4
+
 
 
