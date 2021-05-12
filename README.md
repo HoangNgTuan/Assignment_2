@@ -1,11 +1,21 @@
-Assignment_2: 04/05/2021
-# ASSIGNMENT 2: IMAGE AUGMENTATION
-# Nhiệm vụ
-1. Tìm hiểu về image augmentation
-2. Các hàm để augment trong python (opencv, keras, pytorch, augmentor, albumentations, ...) chạy thử và show lại kết quả vào Readme
-3. Code 1 chương trình augment 1 tập data tùy chọn
-# Nộp
-Thời gian: 23h59 thứ 4 ngày 12/05/2021
-1. Code
-2. Folder data ban đầu và sau khi augment
-3. Readme về các hàm augment
+# Image Augmentation
+
+Là kĩ thuật để tăng số lượng dữ liệu trong dataset trong trường hợp quá ít dữ liệu.
+để training mô hình học sâu (Deep learning model)
+Về cơ bản, càng nhiều dữ liệu, mô hình deep learning của mình sẽ càng hiệu quả
+![alt](https://cdn.analyticsvidhya.com/wp-content/uploads/2021/03/Screenshot-from-2021-03-10-14-05-33.png)
+
+Vấn đề ta gặp phải khi thiếu dữ liệu là việc "học vẹt" của máy, tức là có kết quả tốt với những bức ảnh đã được train, nhưng lại "bó tay với những bức ảnh mới 
+
+Cách giải quyết vấn đề
+1. Tự mình đi thu thập thêm dữ liệu
+> Việc này rất tốn thời gian và công sức. Nhiều lúc dữ liệu vốn đã hạn chế và không thể tìm thêm được nữa (Ví dụ hình ảnh các con vật hiếm)
+
+2. Tự mình vẽ ra dữ liệu fake
+> Tốn thời gian và thậm chí là tiền bạc để có thể có những bức ảnh fake hoàn chỉnh. Tuy nhiên những bức ảnh đó có thể gây lỗi khi training do không đúng với thực tế
+
+3. Bắt một đứa team AI code để tạo thêm dữ liệu từ những bức ảnh gốc ban đầu
+> Việc này không tốn nhiều thời gian, chi phí thấp, chỉ khổ thằng coder thôi
+
+![alt](https://paperswithcode.com/media/thumbnails/task/task-0000001560-029cbc00.jpg)
+
