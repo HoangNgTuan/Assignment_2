@@ -52,43 +52,43 @@ padding_mode:
 * 'constant': pad vói một giá trị cụ thể được khai báo ở 'fill'
 * 'edge' : pad với giá trị ở neighbor (giá trị ở cạnh) 
 	
->torchvision.transforms. Pad ( padding , fill=0 , padding_mode=‘constant’ )
->torchvision.transforms. RandomAffine
->torchvision.transforms. RandomApply
->torchvision.transforms. RandomChoice
->torchvision.transforms. RandomCrop
->torchvision.transforms. RandomGrayscale
->torchvision.transforms. RandomHorizontalFlip
->torchvision.transforms. RandomOrder
->torchvision.transforms. RandomPerspective
->torchvision.transforms. RandomResizedCrop
->torchvision.transforms. RandomRotation
->torchvision.transforms. RandomSizedCrop
->torchvision.transforms. RandomVerticalFlip
->torchvision.transforms. Resize
->torchvision.transforms. Scale
->torchvision.transforms. TenCrop
->torchvision.transforms. LinearTransformation
->torchvision.transforms. Normalize
->torchvision.transforms. ToPILImage
->torchvision.transforms. ToTensor
->torchvision.transforms. Lambda
->torchvision.transforms.functional. adjust_brightness
->torchvision.transforms.functional. adjust_contrast
->torchvision.transforms.functional. adjust_gamma
->torchvision.transforms.functional. adjust_hue
->torchvision.transforms.functional. adjust_saturation
->torchvision.transforms.functional. affine
->torchvision.transforms.functional. crop
->torchvision.transforms.functional. five_crop
->torchvision.transforms.functional. hflip
->torchvision.transforms.functional. vflip
->torchvision.transforms.functional. normalize
->torchvision.transforms.functional. pad
->torchvision.transforms.functional. perspective
+>torchvision.transforms. Pad ( padding , fill=0 , padding_mode=‘constant’ )  
+>torchvision.transforms. RandomAffine  
+>torchvision.transforms. RandomApply  
+>torchvision.transforms. RandomChoice  
+>torchvision.transforms. RandomCrop  
+>torchvision.transforms. RandomGrayscale  
+>torchvision.transforms. RandomHorizontalFlip  
+>torchvision.transforms. RandomOrder  
+>torchvision.transforms. RandomPerspective  
+>torchvision.transforms. RandomResizedCrop  
+>torchvision.transforms. RandomRotation  
+>torchvision.transforms. RandomSizedCrop  
+>torchvision.transforms. RandomVerticalFlip  
+>torchvision.transforms. Resize  
+>torchvision.transforms. Scale  
+>torchvision.transforms. TenCrop  
+>torchvision.transforms. LinearTransformation  
+>torchvision.transforms. Normalize  
+>torchvision.transforms. ToPILImage  
+>torchvision.transforms. ToTensor  
+>torchvision.transforms. Lambda  
+>torchvision.transforms.functional. adjust_brightness  
+>torchvision.transforms.functional. adjust_contrast  
+>torchvision.transforms.functional. adjust_gamma  
+>torchvision.transforms.functional. adjust_hue  
+>torchvision.transforms.functional. adjust_saturation  
+>torchvision.transforms.functional. affine  
+>torchvision.transforms.functional. crop  
+>torchvision.transforms.functional. five_crop  
+>torchvision.transforms.functional. hflip  
+>torchvision.transforms.functional. vflip  
+>torchvision.transforms.functional. normalize  
+>torchvision.transforms.functional. pad  
+>torchvision.transforms.functional. perspective 
 >torchvision.transforms.functional. resize
->torchvision.transforms.functional. resized_crop
->torchvision.transforms.functional. rotate
->torchvision.transforms.functional. ten_crop
->torchvision.transforms.functional. to_grayscale
-
+>torchvision.transforms.functional. resized_crop  
+>torchvision.transforms.functional. rotate  
+>torchvision.transforms.functional. ten_crop  
+>torchvision.transforms.functional. to_grayscale  
+  
